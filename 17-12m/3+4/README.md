@@ -1,5 +1,8 @@
 17m / 12 meter dual band anntena band with 3+4 elements.
 
+Differences from 3+3 element - not an open sleeve configuration but both elements are directly driven.
+This allows for higher F/B on 17 meters, closer to a mono band yagi.
+
 Modeled EZNEC Pro 7 and NEC-5 calculation engine.
 
 17m:
