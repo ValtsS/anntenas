@@ -1,0 +1,180 @@
+MultiNEC	24.95	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_14.707	_Height																													
+_4.312	_17m reflector L																													
+_0.752	_12m reflector Pos																													
+																														
+_3.154	_D1 pos																													
+_3.5	_D2 pos																													
+_3.231	_D1 len																													
+_4.152	_D2 len																													
+_3.915	_12m D1 Position																													
+_2.934	_30m D1 pos																													
+_5.817	_17m D2 pos																													
+_3.779	_12m D2 len																													
+_5.927	_12m D2 position																													
+_3.004	_len																													
+_2.882	_30m d pos																													
+																														
+_-1.251	_30m Reflector Pos																													
+_7.993	_30m Reflector Len																													
+_0.00627658239879117	_17m reflector Pos																													
+_6.862	_30m D1 Len																													
+																														
+																														
+	_7 element 17/12meter																													
+	_=V	_=-B	_=A	_=V	_-2.95	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=V	_-1.2	_=A	_=V	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=V	_1.2	_=A	_=V	_2.95	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=V	_2.95	_=A	_=V	_=B	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=V	_-2.95	_=A	_=V	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=D	_-3.047	_=A	_=D	_-2.1	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=D	_-1.2	_=A	_=D	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=D	_1.2	_=A	_=D	_2.1	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=D	_2.1	_=A	_=D	_3.047	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=D	_-2.1	_=A	_=D	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=H	_=J*-1	_=A	_=H	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=H	_-0.01	_=A	_=H	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=H	_1.25	_=A	_=H	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=H	_3	_=A	_=H	_=J	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=H	_-3	_=A	_=H	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=K	_=L*-1	_=A	_=K	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=K	_-1.25	_=A	_=K	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=K	_1.25	_=A	_=K	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=K	_2.1175	_=A	_=K	_=L	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=K	_-2.1175	_=A	_=K	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=M	_=N*-1	_=A	_=M	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=M	_-1.25	_=A	_=M	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=M	_1.25	_=A	_=M	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=M	_3	_=A	_=M	_=N	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=M	_-3	_=A	_=M	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=O	_=P*-1	_=A	_=O	_-2.045	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=O	_-1.25	_=A	_=O	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=O	_1.25	_=A	_=O	_2.045	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=O	_2.045	_=A	_=O	_=P	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=O	_-2.045	_=A	_=O	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=H	_-0.01	_=A	_=H	_-1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=H	_0.01	_=A	_=H	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=G	_=I*-1	_=A	_=G	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=G	_-1.25	_=A	_=G	_-0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=G	_1.25	_=A	_=G	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=G	_2.1175	_=A	_=G	_=I	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=G	_-2.1175	_=A	_=G	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=G	_1.25	_=A	_=G	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=G	_-0.01	_=A	_=H	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_=G	_0.01	_=A	_=H	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_30m driver																													
+	_=Q	_=X*-1	_=A	_=Q	_=-0.01 - 3 - 2.8	_=A	_=40	_=ODD(WireLen / WL * 500)																						
+	_=Q	_=-0.01 - 3 - 2.8	_=A	_=Q	_=-0.01 - 3	_=A	_=50	_=ODD(WireLen / WL * 500)																						
+	_=Q	_=-0.01 - 3	_=A	_=Q	_=-0.01	_=A	_=60	_=ODD(WireLen / WL * 500)																						
+																														
+	_=Q	_=0.01	_=A	_=Q	_=0.01 + 3	_=A	_=60	_=ODD(WireLen / WL * 500)																						
+	_=Q	_=0.01 + 3	_=A	_=Q	_=0.01 + 3 + 2.8	_=A	_=50	_=ODD(WireLen / WL * 500)																						
+	_=Q	_=0.01 + 3 + 2.8	_=A	_=Q	_=X	_=A	_=40	_=ODD(WireLen / WL * 500)																						
+	_Connector to 30m																													
+	_=Q	_=-0.01	_=A	_=G	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_=Q	_0.01	_=A	_=G	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_30m reflector																													
+	_=T	_=U*-1	_=14.707	_=T	_=-3 - 2.8	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
+	_=T	_=-3 - 2.8	_=14.707	_=T	_=-3	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
+	_=T	_=-3	_=14.707	_=T	_=3	_=14.707	_=60	_=ODD(WireLen / WL * 500)																						
+	_=T	_=3	_=14.707	_=T	_=3 + 2.8	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
+	_=T	_=3 + 2.8	_=14.707	_=T	_=U	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
+_12	_50	_1	_0	_I											_10.14		_B													
+															_18.07		_D													
+															_18.15		_G													
+															_24.9		_H													
+															_24.95		_I													
+															_		_J													
+															_		_K													
+															_		_L													
+															_		_M													
+																	_N													
+															_1	_0.5	_O													
+															_1	_0.5	_P													
+															_1	_1.03	_Q													
+															_1	_8.5	_T													
+															_0.7	_25	_U													
+															_0	_40	_X													
+																														
+															_	_														
+															_	_														
+																														
+															_0															
+																														
+																														
+															TRUE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+_12	_50	_0	_0				_Ser																							
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	0	0	2	0	0	1	50	0	0	10.1	10.15	0.01													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_10.1																														
+_10.11																														
+_10.12																														
+_10.13																														
+_10.14																														
+_10.15																														
+7																														
