@@ -1,7 +1,6 @@
 WARC 30 m / 17m / 12 tri bander with 2+3+4 elements.
 
 Single cable, all band driven elements are directly driven.
-This allows for higher F/B on 17 meters, closer to a mono band yagi.
 
 Modeled EZNEC Pro 7 and NEC-5 calculation engine.
 
