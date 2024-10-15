@@ -1,84 +1,92 @@
-MultiNEC	24.95	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
-_14.707	_Height																													
-_4.312	_17m reflector L																													
-_0.752	_12m reflector Pos																													
+MultiNEC	24.94	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_14.707	_Height									_0	_30m RE pos																			
+_4.312	_17m RE len									_1.257276582	_17m RE pos																			
+										_2.003	_12m RE pos																			
+										_4.133	_30m DE pos																			
+										_4.405	_12m DE pos																			
+										_4.751	_17m DE pos																			
+_3.231	_12m DE len									_5.166	_12m D1 pos																			
+_4.152	_17m DE len									_7.068	_17m D1 pos																			
+										_7.178	_12m D2 pos																			
+_2.9343	_12m D1 len																													
 																														
-_3.154	_D1 pos																													
-_3.5	_D2 pos																													
-_3.231	_D1 len																													
-_4.152	_D2 len																													
-_3.915	_12m D1 Position																													
-_2.934	_30m D1 pos																													
-_5.817	_17m D2 pos																													
-_3.779	_12m D2 len																													
-_5.927	_12m D2 position																													
-_3.004	_len																													
-_2.882	_30m d pos																													
+_3.779	_17mD1 len																													
 																														
-_-1.251	_30m Reflector Pos																													
-_7.993	_30m Reflector Len																													
-_0.00627658239879117	_17m reflector Pos																													
+_3.004	_12m D2 len																													
+																														
+																														
+																														
+_7.993	_30m RE len																													
+																														
 _6.862	_30m D1 Len																													
 																														
 																														
-	_7 element 17/12meter																													
-	_=V	_=-B	_=A	_=V	_-2.95	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=V	_-1.2	_=A	_=V	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=V	_1.2	_=A	_=V	_2.95	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=V	_2.95	_=A	_=V	_=B	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=V	_-2.95	_=A	_=V	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=D	_-3.047	_=A	_=D	_-2.1	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=D	_-1.2	_=A	_=D	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=D	_1.2	_=A	_=D	_2.1	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=D	_2.1	_=A	_=D	_3.047	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=D	_-2.1	_=A	_=D	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=H	_=J*-1	_=A	_=H	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=H	_-0.01	_=A	_=H	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=H	_1.25	_=A	_=H	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=H	_3	_=A	_=H	_=J	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=H	_-3	_=A	_=H	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=K	_=L*-1	_=A	_=K	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=K	_-1.25	_=A	_=K	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=K	_1.25	_=A	_=K	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=K	_2.1175	_=A	_=K	_=L	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=K	_-2.1175	_=A	_=K	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=M	_=N*-1	_=A	_=M	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=M	_-1.25	_=A	_=M	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=M	_1.25	_=A	_=M	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=M	_3	_=A	_=M	_=N	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=M	_-3	_=A	_=M	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=O	_=P*-1	_=A	_=O	_-2.045	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=O	_-1.25	_=A	_=O	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=O	_1.25	_=A	_=O	_2.045	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=O	_2.045	_=A	_=O	_=P	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=O	_-2.045	_=A	_=O	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=H	_-0.01	_=A	_=H	_-1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=H	_0.01	_=A	_=H	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=G	_=I*-1	_=A	_=G	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=G	_-1.25	_=A	_=G	_-0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=G	_1.25	_=A	_=G	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=G	_2.1175	_=A	_=G	_=I	_=A	_16	_=ODD(WireLen / WL * 500)																						
-	_=G	_-2.1175	_=A	_=G	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
-	_=G	_1.25	_=A	_=G	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
-	_=G	_-0.01	_=A	_=H	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
-	_=G	_0.01	_=A	_=H	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
-	_30m driver																													
-	_=Q	_=X*-1	_=A	_=Q	_=-0.01 - 3 - 2.8	_=A	_=40	_=ODD(WireLen / WL * 500)																						
-	_=Q	_=-0.01 - 3 - 2.8	_=A	_=Q	_=-0.01 - 3	_=A	_=50	_=ODD(WireLen / WL * 500)																						
-	_=Q	_=-0.01 - 3	_=A	_=Q	_=-0.01	_=A	_=60	_=ODD(WireLen / WL * 500)																						
+	_17m RE																													
+	_=AB	_=-B	_=A	_=AB	_-2.95	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AB	_-1.2	_=A	_=AB	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AB	_1.2	_=A	_=AB	_2.95	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AB	_2.95	_=A	_=AB	_=B	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AB	_-2.95	_=A	_=AB	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_12m RE																													
+	_=AC	_-3.047	_=A	_=AC	_-2.1	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AC	_-1.2	_=A	_=AC	_1.2	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AC	_1.2	_=A	_=AC	_2.1	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AC	_2.1	_=A	_=AC	_3.047	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AC	_-2.1	_=A	_=AC	_-1.2	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_17m DE																													
+	_=AF	_=J*-1	_=A	_=AF	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AF	_-0.01	_=A	_=AF	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AF	_1.25	_=A	_=AF	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AF	_3	_=A	_=AF	_=J	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AF	_-3	_=A	_=AF	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AF	_-0.01	_=A	_=AF	_-1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AF	_0.01	_=A	_=AF	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_12m D1																													
+	_=AG	_=L*-1	_=A	_=AG	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AG	_-1.25	_=A	_=AG	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AG	_1.25	_=A	_=AG	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AG	_2.1175	_=A	_=AG	_=L	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AG	_-2.1175	_=A	_=AG	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_17m D1																													
+	_=AH	_=N*-1	_=A	_=AH	_-3	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AH	_-1.25	_=A	_=AH	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AH	_1.25	_=A	_=AH	_3	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AH	_3	_=A	_=AH	_=N	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AH	_-3	_=A	_=AH	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_12m D2																													
+	_=AI	_=P*-1	_=A	_=AI	_-2.045	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AI	_-1.25	_=A	_=AI	_1.25	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AI	_1.25	_=A	_=AI	_2.045	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AI	_2.045	_=A	_=AI	_=P	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AI	_-2.045	_=A	_=AI	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
 																														
-	_=Q	_=0.01	_=A	_=Q	_=0.01 + 3	_=A	_=60	_=ODD(WireLen / WL * 500)																						
-	_=Q	_=0.01 + 3	_=A	_=Q	_=0.01 + 3 + 2.8	_=A	_=50	_=ODD(WireLen / WL * 500)																						
-	_=Q	_=0.01 + 3 + 2.8	_=A	_=Q	_=X	_=A	_=40	_=ODD(WireLen / WL * 500)																						
-	_Connector to 30m																													
-	_=Q	_=-0.01	_=A	_=G	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
-	_=Q	_0.01	_=A	_=G	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
-	_30m reflector																													
-	_=T	_=U*-1	_=14.707	_=T	_=-3 - 2.8	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
-	_=T	_=-3 - 2.8	_=14.707	_=T	_=-3	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
-	_=T	_=-3	_=14.707	_=T	_=3	_=14.707	_=60	_=ODD(WireLen / WL * 500)																						
-	_=T	_=3	_=14.707	_=T	_=3 + 2.8	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
-	_=T	_=3 + 2.8	_=14.707	_=T	_=U	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
+	_12m DE																													
+	_=AE	_=I*-1	_=A	_=AE	_-2.1175	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AE	_-1.25	_=A	_=AE	_-0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_=AE	_1.25	_=A	_=AE	_2.1175	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AE	_2.1175	_=A	_=AE	_=I	_=A	_16	_=ODD(WireLen / WL * 500)																						
+	_=AE	_-2.1175	_=A	_=AE	_-1.25	_=A	_20	_=ODD(WireLen / WL * 500)																						
+	_=AE	_1.25	_=A	_=AE	_0.01	_=A	_25	_=ODD(WireLen / WL * 500)																						
+	_Feedline																													
+	_=AE	_-0.01	_=A	_=AF	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_=AE	_0.01	_=A	_=AF	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_=AD	_=-0.01	_=A	_=AE	_-0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_=AD	_0.01	_=A	_=AE	_0.01	_=A	_10	_=ODD(WireLen / WL * 500)																						
+	_30m DE																													
+	_=AD	_=X*-1	_=A	_=AD	_=-0.01 - 3 - 2.8	_=A	_=40	_=ODD(WireLen / WL * 500)																						
+	_=AD	_=-0.01 - 3 - 2.8	_=A	_=AD	_=-0.01 - 3	_=A	_=50	_=ODD(WireLen / WL * 500)																						
+	_=AD	_=-0.01 - 3	_=A	_=AD	_=-0.01	_=A	_=60	_=ODD(WireLen / WL * 500)																						
+																														
+	_=AD	_=0.01	_=A	_=AD	_=0.01 + 3	_=A	_=60	_=ODD(WireLen / WL * 500)																						
+	_=AD	_=0.01 + 3	_=A	_=AD	_=0.01 + 3 + 2.8	_=A	_=50	_=ODD(WireLen / WL * 500)																						
+	_=AD	_=0.01 + 3 + 2.8	_=A	_=AD	_=X	_=A	_=40	_=ODD(WireLen / WL * 500)																						
+																														
+	_30m RE																													
+	_=AA	_=U*-1	_=14.707	_=AA	_=-3 - 2.8	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
+	_=AA	_=-3 - 2.8	_=14.707	_=AA	_=-3	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
+	_=AA	_=-3	_=14.707	_=AA	_=3	_=14.707	_=60	_=ODD(WireLen / WL * 500)																						
+	_=AA	_=3	_=14.707	_=AA	_=3 + 2.8	_=14.707	_=50	_=ODD(WireLen / WL * 500)																						
+	_=AA	_=3 + 2.8	_=14.707	_=AA	_=U	_=14.707	_=40	_=ODD(WireLen / WL * 500)																						
 _12	_50	_1	_0	_I											_10.14		_B													
 															_18.07		_D													
 															_18.15		_G													
@@ -171,10 +179,7 @@ _12	_50	_0	_0				_Ser
 																														
 Controls	TRUE	FALSE	0	0	2	0	0	1	50	0	0	10.1	10.15	0.01													FALSE	TRUE	_1	_0
 _Freq (MHz)																														
-_10.1																														
-_10.11																														
 _10.12																														
-_10.13																														
-_10.14																														
-_10.15																														
-7																														
+_18.12																														
+_24.94																														
+4																														
