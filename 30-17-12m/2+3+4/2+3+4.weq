@@ -1,24 +1,24 @@
-MultiNEC	24.98	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+MultiNEC	24.99	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
 _14.707	_Height									_0	_30m RE pos																			
-_4.309	_17m RE len									_1.972	_17m RE pos																			
-										_3.177	_12m RE pos																			
+_4.287	_17m RE len									_1.992	_17m RE pos																			
+										_3.265	_12m RE pos																			
 										_5.15	_30m DE pos																			
 										_5.614	_12m DE pos																			
-_3.085	_12m RE len									_6.012	_17m DE pos																			
-_3.012	_12m DE len									_6.119	_12m D1 pos																			
-_4.274	_17m DE len									_8.284	_17m D1 pos																			
-										_8	_12m D2 pos																			
-_2.913	_12m D1 len																													
+_3.087	_12m RE len									_6.012	_17m DE pos																			
+_3.017	_12m DE len									_6.109	_12m D1 pos																			
+_4.273	_17m DE len									_8.311	_17m D1 pos																			
+										_7.992	_12m D2 pos																			
+_2.936	_12m D1 len																													
 																														
-_3.928	_17mD1 len																													
+_3.934	_17mD1 len																													
 																														
-_2.965	_12m D2 len																													
+_2.963	_12m D2 len																													
 																														
 																														
 																														
-_8.009	_30m RE len																													
+_7.993	_30m RE len																													
 																														
-_7.204	_30m D1 Len																													
+_7.203	_30m D1 Len																													
 																														
 																														
 	_17m RE																													
@@ -146,9 +146,9 @@ _20	_50	_1	_0	_I											_10.12		_B
 															_0.5	_0.5	_AC													
 															_0.5	_0.5	_AG													
 															_1	_1.03	_AH													
-															_6	_9.5	_AI													
+															_12	_9.5	_AI													
 															_0	_25														
-															_2	_28														
+															_2	_20														
 																														
 															_100	_250														
 															_	_														
