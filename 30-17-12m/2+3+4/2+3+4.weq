@@ -1,24 +1,24 @@
-MultiNEC	24.98	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+MultiNEC	10.15	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
 _14.707	_Height									_0	_30m RE pos																			
-_4.287	_17m RE len									_1.992	_17m RE pos																			
-										_3.384	_12m RE pos																			
-										_5.15	_30m DE pos																			
-										_5.614	_12m DE pos																			
-_3.044	_12m RE len									_6.012	_17m DE pos																			
-_3.017	_12m DE len									_6.934	_12m D1 pos																			
-_4.273	_17m DE len									_8.311	_17m D1 pos																			
-										_9.033	_12m D2 pos																			
-_2.898	_12m D1 len																													
+_4.357	_17m RE len									_0.731	_17m RE pos																			
+										_1.516	_12m RE pos																			
+										_4.724	_30m DE pos																			
+										_4.461	_12m DE pos																			
+_3.013	_12m RE len									_4.199	_17m DE pos																			
+_3.061	_12m DE len									_5.122	_12m D1 pos																			
+_4.273	_17m DE len									_6.284	_17m D1 pos																			
+										_6.816	_12m D2 pos																			
+_2.914	_12m D1 len																													
 																														
-_3.934	_17mD1 len																													
+_3.861	_17mD1 len																													
 																														
-_2.865	_12m D2 len																													
+_2.894	_12m D2 len																													
 																														
 																														
 																														
-_7.993	_30m RE len																													
+_8.068	_30m RE len																													
 																														
-_7.203	_30m D1 Len																													
+_7.291	_30m D1 Len																													
 																														
 																														
 	_17m RE																													
@@ -133,22 +133,22 @@ _7.203	_30m D1 Len
 	_=AA	_5.75	_=A	_=AA	_4.9	_=A	_20	_=EVEN(WireLen / WL * 150)																						
 	_=AA	_6.55	_=A	_=AA	_5.75	_=A	_16	_=EVEN(WireLen / WL * 150)																						
 	_=AA	_=U	_=A	_=AA	_6.55	_=A	_12	_=EVEN(WireLen / WL * 150)																						
-_20	_50	_1	_0	_I											_24.92		_H													
-															_24.98		_L													
+_20	_50	_1	_0	_I											_24.9		_B													
+															_24.99		_H													
+															_18.1		_I													
+															_18.15		_J													
+															_10.1		_L													
+															_10.15		_N													
 															_		_P													
-															_		_AC													
-															_		_AG													
-															_		_AI													
-															_															
-															_															
-															_															
+															_		_U													
+															_		_X													
 																														
 															_0.5	_0.5														
 															_0.5	_0.5														
 															_1	_1.03														
-															_12	_9.5														
+															_4	_10														
 															_0	_25														
-															_2	_20														
+															_0.25	_28														
 																														
 															_100	_250														
 															_	_														
