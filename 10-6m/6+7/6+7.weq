@@ -1,12 +1,12 @@
 MultiNEC	29	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
-_1.453	_6m RE len									_0.878	_6m RE pos																			
-_1.445	_6m DE len									_2.506	_6m DE pos																			
+_1.455	_6m RE len									_0.901	_6m RE pos																			
+_1.446	_6m DE len									_2.506	_6m DE pos																			
 _1.41	_6m D1 len									_3.086	_6m D1 pos																			
-_1.393	_6m D2 len									_5.062	_6m D2 pos																			
-_1.105	_6m D3 len									_6.805	_6m D3 pos																			
-_1.293	_6m D5 len									_9.491	_6m D6 pos																			
-_1.416	_6m D6 len									_11.413	_6m D5 pos																			
-										_7.466	_6m D4 pos																			
+_1.394	_6m D2 len									_5.062	_6m D2 pos																			
+																														
+_1.295	_6m D5 len									_9.642	_6m D6 pos																			
+_1.411	_6m D6 len									_11.433	_6m D5 pos																			
+										_7.402	_6m D4 pos																			
 _2.681	_10m RE len																													
 _2.714	_10m DE len																													
 _2.546	_10m D1 len									_0.023	_10m RE pos																			
@@ -33,8 +33,6 @@ _x	_=AB	_-0.01	_=10	_=AB	_0.01	_=10	_12	_=EVEN(WireLen / WL * 150)
 	_=AC	_=-D	_=10	_=AC	_=D	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 	_6m D2																													
 	_=AD	_=-E	_=10	_=AD	_=E	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-	_6m D3																													
-	_=AE	_=-G	_=10	_=AE	_=G	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 																														
 	_6m D5																													
 	_=AH	_=-T	_=10	_=AH	_=T	_=10	_12	_=EVEN(WireLen / WL * 150)																						
@@ -94,21 +92,21 @@ _x	_=AB	_-0.01	_=10	_=AB	_0.01	_=10	_12	_=EVEN(WireLen / WL * 150)
 	_=AP	_-0.55	_10	_=AP	_0.55	_10	_20	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_0.55	_10	_=AP	_1.3	_10	_16	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_1.3	_10	_=AP	_=P	_10	_12	_=EVEN(WireLen / WL * 150)																						
-_22	_50	_1	_0	_I											_50.313		_A													
+_21	_50	_1	_0	_I											_50.313		_A													
 															_50.125		_B													
 															_50.25		_D													
 															_50.35		_E													
-															_50.05		_G													
-															_		_H													
+															_50.05		_H													
 															_		_I													
-															_		_T													
 															_		_AA													
-																	_AD													
-															_0.5	_0.5	_AE													
-															_0.5	_0.5	_AF													
-															_1	_1.01	_AG													
-															_4	_99	_AH													
-															_0	_40	_AR													
+															_		_AC													
+															_		_AF													
+																	_AG													
+															_0.5	_0.5	_AH													
+															_0.5	_0.5														
+															_1	_1.01														
+															_4	_99														
+															_0	_40														
 															_1	_40														
 																														
 															_50	_310														
@@ -124,7 +122,7 @@ _22	_50	_1	_0	_I											_50.313		_A
 															TRUE															
 															TRUE															
 																														
-_22	_50	_0	_0				_Ser																							
+_21	_50	_0	_0				_Ser																							
 																														
 																														
 																														
