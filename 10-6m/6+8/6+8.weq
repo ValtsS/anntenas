@@ -1,22 +1,22 @@
-MultiNEC	50.4	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
-_=1.48	_6m RE len									_0.738	_6m RE pos																			
-_=2.882/2	_6m DE len									_2.506	_6m DE pos																			
-_1.402	_6m D1 len									_3.126	_6m D1 pos																			
-_1.419	_6m D2 len									_4.648	_6m D2 pos																			
-_1.38	_6m D3 len									_5.061	_6m D3 pos																			
-_1.389	_6m D5 len									_8.621	_6m D6 pos																			
-_1.363	_6m D6 len									_11.064	_6m D5 pos																			
-										_7.092	_6m D4 pos																			
+MultiNEC	50.5	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_1.453	_6m RE len									_0.878	_6m RE pos																			
+_1.445	_6m DE len									_2.506	_6m DE pos																			
+_1.41	_6m D1 len									_3.086	_6m D1 pos																			
+_1.393	_6m D2 len									_5.062	_6m D2 pos																			
+_1.105	_6m D3 len									_6.805	_6m D3 pos																			
+_1.293	_6m D5 len									_9.491	_6m D6 pos																			
+_1.416	_6m D6 len									_11.413	_6m D5 pos																			
+										_7.466	_6m D4 pos																			
 _2.681	_10m RE len																													
 _2.714	_10m DE len																													
 _2.546	_10m D1 len									_0.023	_10m RE pos																			
 _2.447	_10m D2 len									_2.396	_10m DE pos																			
 _2.403	_10m D3 len									_2.928	_10m D1 pos																			
-_2.289	_10m D4 len									_4.783	_10m D2 pos																			
+_2.276	_10m D4 len									_4.783	_10m D2 pos																			
 										_8.278	_10m D3 pos																			
-										_11.289	_10m D4 pos																			
-_1.315	_6m D4 len																													
-										_0.095	_6m RE shift																			
+										_11.286	_10m D4 pos																			
+_1.322	_6m D4 len																													
+										_0.115	_6m RE shift																			
 										_0.15	_10m RE shift																			
 																														
 																														
@@ -94,24 +94,24 @@ _x	_=AB	_-0.01	_=10	_=AB	_0.01	_=10	_12	_=EVEN(WireLen / WL * 150)
 	_=AP	_-0.55	_10	_=AP	_0.55	_10	_20	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_0.55	_10	_=AP	_1.3	_10	_16	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_1.3	_10	_=AP	_=P	_10	_12	_=EVEN(WireLen / WL * 150)																						
-_22	_50	_1	_0	_I											_50		_AA													
-															_50.2		_AC													
-															_50.4		_AD													
-															_		_AE													
-															_		_AF													
-															_		_AG													
-															_		_AH													
-															_															
-															_															
-																														
-															_0.5	_0.5														
-															_0.5	_0.5														
-															_1	_1.01														
-															_4	_99														
-															_0	_40														
+_22	_50	_1	_0	_I											_50.313		_A													
+															_50.125		_B													
+															_50.25		_D													
+															_50.35		_E													
+															_50.05		_G													
+															_		_H													
+															_		_I													
+															_		_T													
+															_		_AA													
+																	_AD													
+															_0.5	_0.5	_AE													
+															_0.5	_0.5	_AF													
+															_1	_1.01	_AG													
+															_4	_99	_AH													
+															_0	_40	_AR													
 															_1	_40														
 																														
-															_90	_270														
+															_50	_310														
 															_	_														
 																														
 															_0															
@@ -186,6 +186,15 @@ _22	_50	_0	_0				_Ser
 																														
 Controls	TRUE	FALSE	0	0	2	0	0	1	50	0	0	50	50.5	0.05													FALSE	TRUE	_1	_0
 _Freq (MHz)																														
-_28.2																														
+_50																														
+_50.05																														
+_50.1																														
+_50.15																														
+_50.2																														
 _50.25																														
-3																														
+_50.3																														
+_50.35																														
+_50.4																														
+_50.45																														
+_50.5																														
+12																														
