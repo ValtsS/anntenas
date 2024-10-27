@@ -1,12 +1,12 @@
-MultiNEC	29	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
-_1.455	_6m RE len									_0.901	_6m RE pos																			
-_1.446	_6m DE len									_2.506	_6m DE pos																			
-_1.41	_6m D1 len									_3.086	_6m D1 pos																			
-_1.394	_6m D2 len									_5.062	_6m D2 pos																			
+MultiNEC	50.313	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_1.444	_6m RE len									_0.901	_6m RE pos																			
+_1.476	_6m DE len									_2.506	_6m DE pos																			
+_1.438	_6m D1 len									_3.086	_6m D1 pos																			
+_1.414	_6m D2 len									_5.062	_6m D2 pos																			
+_1.345	_6m D3 len									_7.402	_6m D3 pos																			
+_1.308	_6m D4 len									_9.642	_6m D5 pos																			
+_1.437	_6m D5 len									_11.433	_6m D4 pos																			
 																														
-_1.295	_6m D5 len									_9.642	_6m D6 pos																			
-_1.411	_6m D6 len									_11.433	_6m D5 pos																			
-										_7.402	_6m D4 pos																			
 _2.681	_10m RE len																													
 _2.714	_10m DE len																													
 _2.546	_10m D1 len									_0.023	_10m RE pos																			
@@ -15,7 +15,7 @@ _2.403	_10m D3 len									_2.928	_10m D1 pos
 _2.276	_10m D4 len									_4.783	_10m D2 pos																			
 										_8.278	_10m D3 pos																			
 										_11.286	_10m D4 pos																			
-_1.322	_6m D4 len																													
+																														
 										_0.115	_6m RE shift																			
 										_0.15	_10m RE shift																			
 																														
@@ -26,21 +26,31 @@ _1.322	_6m D4 len
 	_=AA	_-0.5	_=10	_=AA	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
 	_=AA	_0.5	_=10	_=AA+AR	_=A	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 	_6m Rad																													
-	_=AB	_=-B	_=10	_=AB	_-0.01	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-_x	_=AB	_-0.01	_=10	_=AB	_0.01	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-	_=AB	_0.01	_=10	_=AB	_=B	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-B	_=10	_=AB	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_-0.5	_=10	_=AB	_-0.01	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+																														
+	_=AB	_0.01	_=10	_=AB	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_0.5	_=10	_=AB	_=B	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 	_6m D1																													
-	_=AC	_=-D	_=10	_=AC	_=D	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-D	_=10	_=AC	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_-0.5	_=10	_=AC	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_0.5	_=10	_=AC	_=D	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 	_6m D2																													
-	_=AD	_=-E	_=10	_=AD	_=E	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-																														
+	_=AD	_=-E	_=10	_=AD	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AD	_-0.5	_=10	_=AD	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AD	_0.5	_=10	_=AD	_=E	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_6m D3																													
+	_=AE	_=-G	_=10	_=AE	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AE	_-0.5	_=10	_=AE	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AE	_0.5	_=10	_=AE	_=G	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_6m D4																													
+	_=AF	_=-H	_=10	_=AF	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AF	_-0.5	_=10	_=AF	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AF	_0.5	_=10	_=AF	_=H	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 	_6m D5																													
-	_=AH	_=-T	_=10	_=AH	_=T	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-																														
-	_6m D5																													
-	_=AF	_=-H	_=10	_=AF	_=H	_=10	_12	_=EVEN(WireLen / WL * 150)																						
-	_6m D6																													
-	_=AG	_=-I	_=10	_=AG	_=I	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AG	_=-I	_=10	_=AG	_-0.5	_=10	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AG	_-0.5	_=10	_=AG	_0.5	_=10	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AG	_0.5	_=10	_=AG	_=I	_=10	_12	_=EVEN(WireLen / WL * 150)																						
 																														
 	_Feedline																													
 	_=AL	_-0.01	_10	_=AB	_-0.01	_10	_10	_=EVEN(WireLen / WL * 150)																						
@@ -92,17 +102,17 @@ _x	_=AB	_-0.01	_=10	_=AB	_0.01	_=10	_12	_=EVEN(WireLen / WL * 150)
 	_=AP	_-0.55	_10	_=AP	_0.55	_10	_20	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_0.55	_10	_=AP	_1.3	_10	_16	_=EVEN(WireLen / WL * 150)																						
 	_=AP	_1.3	_10	_=AP	_=P	_10	_12	_=EVEN(WireLen / WL * 150)																						
-_21	_50	_1	_0	_I											_50.313		_A													
+_33	_50	_1	_0	_I											_50.313		_A													
 															_50.125		_B													
 															_50.25		_D													
 															_50.35		_E													
-															_50.05		_H													
+															_50.05		_G													
+															_		_H													
 															_		_I													
-															_		_AA													
-															_		_AC													
-															_		_AF													
-																	_AG													
-															_0.5	_0.5	_AH													
+															_															
+															_															
+																														
+															_0.5	_0.5														
 															_0.5	_0.5														
 															_1	_1.01														
 															_4	_99														
@@ -122,7 +132,7 @@ _21	_50	_1	_0	_I											_50.313		_A
 															TRUE															
 															TRUE															
 																														
-_21	_50	_0	_0				_Ser																							
+_33	_50	_0	_0				_Ser																							
 																														
 																														
 																														
@@ -195,10 +205,4 @@ _50.35
 _50.4																														
 _50.45																														
 _50.5																														
-_28																														
-_28.2																														
-_28.4																														
-_28.6																														
-_28.8																														
-_29																														
-18																														
+12																														
