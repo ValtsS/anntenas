@@ -1,4 +1,4 @@
-MultiNEC	50.5	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+MultiNEC	29	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
 _1.453	_6m RE len									_0.878	_6m RE pos																			
 _1.445	_6m DE len									_2.506	_6m DE pos																			
 _1.41	_6m D1 len									_3.086	_6m D1 pos																			
@@ -197,4 +197,10 @@ _50.35
 _50.4																														
 _50.45																														
 _50.5																														
-12																														
+_28																														
+_28.2																														
+_28.4																														
+_28.6																														
+_28.8																														
+_29																														
+18																														
