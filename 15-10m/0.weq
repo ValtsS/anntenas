@@ -1,0 +1,144 @@
+MultiNEC	21.45	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_14.707	_Height									_0.109	_15 m RE pos																			
+										_2.006	_15m DE pos																			
+_3.748	_15m RE len									_3.639	_15m D1 pos																			
+_3.584	_15m DE len																													
+_3.238	_15m D1 len																													
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+	_15m RE																													
+	_=AA	_=-D	_=10	_=AA	_=-1 - 1.35	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+	_=AA	_=-1 - 1.35	_=10	_=AA	_=-1	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AA	_=-1	_=10	_=AA	_=1	_=10	_=25	_=ODD(WireLen / WL * 20)																						
+	_=AA	_=1	_=10	_=AA	_=1 + 1.35	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AA	_=1 + 1.35	_=10	_=AA	_=D	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+	_15m DE																													
+	_=AB	_=-E	_=10	_=AB	_=-1 - 1.35	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+	_=AB	_=-1 - 1.35	_=10	_=AB	_=-1	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AB	_=-1	_=10	_=AB	_=1	_=10	_=25	_=ODD(WireLen / WL * 20)																						
+	_=AB	_=1	_=10	_=AB	_=1 + 1.35	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AB	_=1 + 1.35	_=10	_=AB	_=E	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+	_15m D1																													
+	_=AC	_=-G	_=10	_=AC	_=-1 - 1.35	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+	_=AC	_=-1 - 1.35	_=10	_=AC	_=-1	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AC	_=-1	_=10	_=AC	_=1	_=10	_=25	_=ODD(WireLen / WL * 20)																						
+	_=AC	_=1	_=10	_=AC	_=1 + 1.35	_=10	_=20	_=ODD(WireLen / WL * 20)																						
+	_=AC	_=1 + 1.35	_=10	_=AC	_=G	_=10	_=12	_=ODD(WireLen / WL * 20)																						
+_8	_50	_1	_0	_I											_21.025		_D													
+															_21.225		_E													
+															_21.425		_G													
+															_		_AA													
+															_		_AB													
+															_		_AC													
+															_															
+															_															
+															_															
+																														
+															_0.5	_0.5														
+															_0.5	_0.5														
+															_1	_1.05														
+															_4	_99														
+															_4	_15														
+															_0	_40														
+																														
+															_	_														
+															_	_														
+																														
+															_															
+																														
+																														
+															TRUE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	0	0	2	0	0	1	50	0	0	21	21.45	0.05													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_21																														
+_21.05																														
+_21.1																														
+_21.15																														
+_21.2																														
+_21.25																														
+_21.3																														
+_21.35																														
+_21.4																														
+_21.45																														
+11																														

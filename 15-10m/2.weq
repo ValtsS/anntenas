@@ -1,0 +1,160 @@
+MultiNEC	28.074	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_14.707	_Height									_0.05	_15 m RE pos																			
+										_2.652	_15m DE pos																			
+_3.802	_15m RE len									_4.712	_15m D1 pos																			
+_3.599	_15m DE len																													
+_3.183	_15m D1 len																													
+										_0.469	_10m RE pos																			
+_2.749	_10m RE len									_=C35-0.33	_10m DE pos																			
+_2.681	_10m DE len									_3.937	_10m D1 pos																			
+_2.541	_10m D1 len									_5.95	_10m D2 pos																			
+_2.459	_10m D2 len																													
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+	_15m RE																													
+	_=AA	_=-D	_=10	_=AA	_=-1 - 1.35	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-1 - 1.35	_=10	_=AA	_=-1	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-1	_=10	_=AA	_=1	_=10	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=1	_=10	_=AA	_=1 + 1.35	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=1 + 1.35	_=10	_=AA	_=D	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_15m DE																													
+	_=AB	_=-E	_=10	_=AB	_=-1 - 1.35	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-1 - 1.35	_=10	_=AB	_=-1	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-1	_=10	_=AB	_=1	_=10	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=1	_=10	_=AB	_=1 + 1.35	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=1 + 1.35	_=10	_=AB	_=E	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_15m D1																													
+	_=AC	_=-G	_=10	_=AC	_=-1 - 1.35	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-1 - 1.35	_=10	_=AC	_=-1	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-1	_=10	_=AC	_=1	_=10	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=1	_=10	_=AC	_=1 + 1.35	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=1 + 1.35	_=10	_=AC	_=G	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_10m RE																													
+	_=AF	_=-I	_=10	_=AF	_=-1.25	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AF	_=-1.25	_=10	_=AF	_=1.25	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AF	_=1.25	_=10	_=AF	_=I	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_10m DE																													
+	_=AG	_=-J	_=10	_=AG	_=-1.25	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AG	_=-1.25	_=10	_=AG	_=1.25	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AG	_=1.25	_=10	_=AG	_=J	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_10m D1																													
+	_=AH	_=-K	_=10	_=AH	_=-1.25	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AH	_=-1.25	_=10	_=AH	_=1.25	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AH	_=1.25	_=10	_=AH	_=K	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_10m D2																													
+	_=AI	_=-L	_=10	_=AI	_=-1.25	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-1.25	_=10	_=AI	_=1.25	_=10	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=1.25	_=10	_=AI	_=L	_=10	_=12	_=EVEN(WireLen / WL * 150)																						
+"_=IF(F<27,8,20)"	_50	_1	_0	_I											_28		_D													
+															_28.5		_E													
+															_29		_G													
+															_21.025		_I													
+															_21.15		_J													
+															_21.225		_K													
+															_21.425		_L													
+															_28.074		_AB													
+															_		_AC													
+																	_AF													
+															_0.5	_0.5	_AH													
+															_0.5	_0.5														
+															_1	_1.05														
+															_3	_99														
+															_0.5	_15														
+															_0	_40														
+																														
+															_	_														
+															_	_														
+																														
+															_0															
+																														
+																														
+															TRUE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+_8	_50	_20	_50	_Actual dist	_188	_1	_N	_0.29	_21																					
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	0	0	2	0	0	1	50	0	0	21	21.45	0.05													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_21																														
+_21.05																														
+_21.1																														
+_21.15																														
+_21.2																														
+_21.25																														
+_21.3																														
+_21.35																														
+_21.4																														
+_21.45																														
+11																														
