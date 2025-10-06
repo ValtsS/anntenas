@@ -1,0 +1,145 @@
+MultiNEC	18.168	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																																	
+											_10.  Optimize on variables K-L-M for best SWR at both the lower and upper frequencies.																											
+_7.523	"_=""Radiator length, "" & UnitsXYZ"										_          Note:  Make sure E = True before running the optimizer.																											
+_10	"_Ground loss, ohms   (see ARRL Antenna Book, Chap 8, section ""Phased Array Design Examples"")"										_Small changes to B (radiator length) and D (ground loss) may be made without repeating steps 1 - 9.																											
+_TRUE	_Include C1-L1-C2 matching network in model?					_(4 radials ~ 29 ohms)																																
+						_(8 radials ~ 18 ohms)				_7.889																												
+		_  Equivalent ±jX reactance at:				_(16 radials ~ 9 ohms)																																
+		_(set band center freqs below)				_(32 radials ~ 4 ohms)						"_Working variables for K-L-M calculations, do not modify"																										
+		_7.15	_14.175	_ MHz								_RLoad	"_= IF(F$29=RefZo, $F$29+0.000000001, F$29)"																									
+_40.872	"_Low Pass L network C1, pF"	"_=IF(K=0, 0, ROUND(-1000000 / (TwoPi * E19 * K), 0))"	"_=IF(K=0, 0, ROUND(-1000000 / (TwoPi * F19 * K), 0))"	_ ohms								_XLoad	_=$G$29																									
+_2.625	"_Low Pass L network L1, uH"	"_=ROUND(TwoPi * E19 * L, 0)"	"_=ROUND(TwoPi * F19 * L, 0)"	_ ohms								_RLoadPar	_= F41 + F42 ^ 2 / F41																									
+_80.595	"_Offsetting series C2, pF"	"_=IF(M=0, 0, ROUND(-1000000 / (TwoPi * E19 * M), 0))"	"_=IF(M=0, 0, ROUND(-1000000 / (TwoPi * F19 * M), 0))"	_ ohms								_XLoadPar	"_= IF(F42 = 0, 1000000000000000000, F42 + F41 ^ 2 / F42)"																									
+												_XL	_= SQRT(RefZo * F43 - RefZo ^ 2)																									
+	"_To set network values, variables K-L-M:"											_X2	"_= IF(F45=0, -1000000000000000000, -RefZo * F43 / F45)"																									
+	_1.  Set B (radiator length) and D (ground loss) as desired.											_XC	"_= IF(F46=F44, 1000000000000000000, 1 / (1/F46 - 1/F44))"																									
+	_2.  Set E = False											_C1 (K)	"_= IF(F47>=0, #VALUE!, -1000000 / (TwoPi * $F$19 * F47))"	_Do not copy / paste from these cells																								
+	_3.  Set cells E19 and F19 above (lower / upper band center frequencies) as desired.											_L1 (L)	"_= IF(F47>=0, #VALUE!, F45 / (TwoPi * $F$19))"	_Use the values as shown																								
+	_4.  Calculate R and X at the upper band center frequency (without any matching network).											_C2 (M)	"_= IF(F47>=0, #VALUE!, IF(F49=0, 0, 1000000 / (TwoPi^2 * $E$19^2 * F49)))"	_in steps 7-9 above																								
+	_5.  Copy / paste the calculated R and X values here:		_779.7456	_-662.2409	_ <<< R and X from Calculate tab																																	
+	"_=IF(ISERROR(F48), ""   ***   Error   ***"", ""6.  Set E = True"")"		_    ^^^^^^^^^	_    ^^^^^^^^^																																		
+	"_=IF(ISERROR(F48), ""   Calculated R and X values are not valid."", ""7.  Set K = "" & ROUND(F48, 0) & "" pF"")"																																					
+	"_=IF(ISERROR(F48), ""   Make sure the *upper* band center frequency was used."", ""8.  Set L = "" & ROUND(F49, 2) & "" uH"")"																																					
+	"_=IF(ISERROR(F48), ""   Make sure E = False for the calculations."", ""9.  Set M = "" & ROUND(F50, 0) & "" pF"")"																																					
+_u	_Dual Band Vertical																																					
+	_Dual Band Vertical																																					
+	_0	_0	_0.05	_0	_0	_=B	_30	_=EVEN(WireLen / WL * 150)																														
+	_Radials																																					
+	_0	_0	_= 0.05	_= AE * 1	_= AE * 0	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * 0.7071067812	_= AE * 0.7071067812	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * 0	_= AE * 1	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * -0.7071067812	_= AE * 0.7071067812	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * -1	_= AE * 0	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * -0.7071067812	_= AE * -0.7071067812	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * 0	_= AE * -1	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+	_0	_0	_= 0.05	_= AE * 0.7071067812	_= AE * -0.7071067812	_= 0.05	_= 2	"_=CEILING(WireLen / WL * 20, 1)"																														
+"_Souce is on V1 (E=True) or Wire1 / 0% (E=False), see column A"															_10.125		_B																					
+_V1		_1	_0	_V								"_=IF(E, """", ""X"")"			_18.1		_K																					
+_1	_0	_1	_0	_V								"_=IF(E, ""X"", """")"			_		_L																					
+															_		_M																					
+															_		_AE																					
+															_																							
+															_																							
+															_																							
+															_																							
+																																						
+															_0	_0.5																						
+															_0.5	_0.5																						
+															_1	_1.005																						
+															_1	_99																						
+															_0	_40																						
+															_0	_40																						
+																																						
+															_	_																						
+															_	_																						
+																																						
+															_22																							
+																																						
+																																						
+															TRUE																							
+															3																							
+															FALSE																							
+															TRUE																							
+															TRUE																							
+															TRUE																							
+																																						
+																										_Low Pass L with compound series branch												"_=IF(E, """", ""X"")"
+																										_Input:  Wire V1     Output:  Wire 1 / 0%												"_=IF(E, """", ""X"")"
+																										_V1			"_=IF(L>0, L, 0)"	"_=IF(M>0, M, 0)"		_Ser						"_=IF(E, """", ""X"")"
+																										_1	_0			"_=IF(K>0, K, 0)"		_Ser						"_=IF(E, """", ""X"")"
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+																																						
+Controls	TRUE	FALSE	2	3	2	1	0	1	50	0	0	10.125	10.125	0.001	B	7	8	0.05									FALSE	TRUE	_1	_0								
+_Freq (MHz)																																						
+_10.1																																						
+_10.11																																						
+_10.12																																						
+_10.13																																						
+_10.14																																						
+_10.15																																						
+_18.068																																						
+_18.078																																						
+_18.088																																						
+_18.098																																						
+_18.108																																						
+_18.118																																						
+_18.128																																						
+_18.138																																						
+_18.148																																						
+_18.158																																						
+_18.168																																						
+18																																						
