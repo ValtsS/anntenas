@@ -1,28 +1,28 @@
 # YL3OI 10/15m dual band 7 element antenna
 
-This is 10/15m dual bander that is actually one my of 1st antenna I designs with NEC5 that has been built.
+This is 10/15m dual bander that is actually is my 1st antenna designs with NEC5 that I have personally built.
 
 It was designed with following goals:
 
-- Single cable, Feed both DE directly, no sleeves
-- Prioritize bandwidth and gain on 10m while giving up on F/R. Aiming for 1.05 to 1.5 SWR on 10m
-- Retain acceptable gain, good F/B and bandwidth on 15m
+- Single cable, Feed both DE directly, no sleeves.
+- Prioritize bandwidth and gain on 10m while giving up on F/R. Aiming for 1.05 to 1.5 SWR on 10m.
+- Retain acceptable gain, good F/B and bandwidth on 15m.
 - Use standard 6 meter long 50mm tube for a boom, no extra guying. No fancy alloys.
 - Try to control weight due to flimsy mast, but have reasonable strength.
 
 Specs:
 
 - 10m:
-  - Gain: 8.6 to 9.5dBi free space,  F/B: 10 to 18dB, gain and F/B goes up in SSB portion
+  - Gain: 8.6 to 9.5dBi free space,  F/B: 10 to 18dB, gain and F/B goes up in SSB portion.
 - 15m:
-  - Gain: 7.3dBi free space, F/B: 16 to 22dB
+  - Gain: 7.3dBi free space, F/B: 16 to 22dB.
 - Choke: 2 pieces of FT-240-52 with 12 turns of PTFE RG-142 cable - should handle 1kW limit with some headroom.
 
 Mechanical specs:
 
 - Wind surface area: 0.7m^2
 - Alloy: T6060-T6/T66 (common alloy)
-- Mass: 13.13kg
+- Mass: >13.13kg (does not include mounting plate, choke, cable)
 - Sag: 12.7cm
 - VMax survivable with EIA-222-C standard : 142km/h (39.4 m/s)
 
@@ -153,3 +153,9 @@ Final look:
 
 
 ![IMG_20251008_090831](ontheair.jpg)
+
+
+
+Valts YL3OI
+
+73!
