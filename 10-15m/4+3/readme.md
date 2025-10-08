@@ -71,7 +71,7 @@ Actual measured SWR on the element at height of 6m without the long cable. Long 
 
 ![image-20251008183846280](10m-rx.png)
 
-When fed via cable due to losses SWR at 28.0 is band is more like 1.45; This IMO provides a decent tool for contests, 28.0 to 28.85
+When fed via cable due to losses SWR at 28.0 is band is more like 1.45; This IMO provides a decent tool for contests, 28.0 to 28.85; As I have a tuner in PA it can tune to 29.2 with SWR < 1.3 but all band below 28.9 I work with ATU bypass;
 
 #### 15m
 
@@ -83,13 +83,15 @@ The actual R is somewhat lower than model predicts, but that is acceptable. Reas
 
 ![image-20251008184025348](15m-rx.png)
 
-#### Balun measurments
+If you have ideas where the differences to model come from and how to account for them, I am open.
+
+#### Choke measurements
 
 ![image-20251008191931667](choke-measurment.png)
 
-## The model:
+## The model
 
-It is close but the model shows it should resonate by about 100kHz lower, so I had to extend DE elements by 25mm which model shows does not meaningfully affect any other parameters. It has been calculated with NEC5 x13.
+It is close but the model shows it should resonate by about 100kHz lower, so I had to extend DE elements by 25mm which model shows does not meaningfully affect any other parameters (gain, F/R). It has been calculated with NEC5 x13 so not sure what I have not accounted for.
 
 Reasons - are not clear, I have DE element holders made of aluminum mounted on Stauff style insulators, but they should bring in capacitance thus making element electrically longer. Maybe there are some boom effects. In any case here is the EZNEC model with extended DE elements:
 
@@ -137,6 +139,8 @@ Here is how I handled going from from 20mm to 12mm on 15m elements:
 
 ![IMG-20250525-WA0015](adjustable.jpg)
 
+This connection also had a screw added after final adjustments to improve rigidity of the connection.
+
 Shelf made from old aluminum door frame:
 
 ![shelf](shelf.jpg)Feed line is built from two pipes and fed from 10m element side (this shown to give better performance on 10m):
@@ -151,7 +155,7 @@ Made from two rings of Fairrite ferrites FT 240 mix 52 which shows to be good ch
 
 ![image-20251008192811789](balun-mounted.jpg)
 
-Covered in rosin dissolved in alcohol, then self vulcanizing rubber tape, then vinily type to protect from UV. Yes you can see how few zinc there is on some bolts made in China...
+Covered in rosin dissolved in alcohol, then self vulcanizing rubber tape, then vinil type to protect from UV. Yes you can see how little zinc there is on some bolts made in China...
 
 ![IMG_20250923_175827](connect.jpg)
 
