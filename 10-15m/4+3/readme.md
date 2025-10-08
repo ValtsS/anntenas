@@ -8,14 +8,21 @@ It was designed with following goals:
 - Prioritize bandwidth and gain on 10m while giving up on F/R. Aiming for 1.05 to 1.5 SWR on 10m.
 - Retain acceptable gain, good F/B and bandwidth on 15m.
 - Use standard 6 meter long 50mm tube for a boom, no extra guying. No fancy alloys.
-- Try to control weight due to flimsy mast, but have reasonable strength.
+- Try to control weight due to a flimsy mast, but have reasonable strength to withstand most winds in YL.
 
 Specs:
 
+- 50 Ohms
 - 10m:
-  - Gain: 8.6 to 9.5dBi free space,  F/B: 10 to 18dB, gain and F/B goes up in SSB portion.
-- 15m:
-  - Gain: 7.3dBi free space, F/B: 16 to 22dB.
+  -  850kHz SWR < 1.5
+  - Gain: 8.6 to 9.5dBi free space
+  - F/B: 10 to 18dB, gain and F/B goes up with frequency.  
+
+- 15m
+  - 450kHz SWR < 1.25
+  - Gain: 7.3dBi free space
+  - F/B: 16 to 22dB.
+
 - Choke: 2 pieces of FT-240-52 with 12 turns of PTFE RG-142 cable - should handle 1kW limit with some headroom.
 
 Mechanical specs:
@@ -64,7 +71,7 @@ Actual measured SWR on the element at height of 6m without the long cable. Long 
 
 ![image-20251008183846280](10m-rx.png)
 
-When fed via cable due to losses SWR at 28.0 is band is more like 1.45
+When fed via cable due to losses SWR at 28.0 is band is more like 1.45; This IMO provides a decent tool for contests, 28.0 to 28.85
 
 #### 15m
 
