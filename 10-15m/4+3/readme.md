@@ -42,7 +42,7 @@ you can look at model sizes linked below, but here are some written out. Notice 
 | 4.642                  | 0.8  | 1    | 0.03 | 1.301 | 3.131            | 15m D1                                                  |
 | 5.954                  |      | 0.7  | 0.5  | 1.253 | 2.453            | 10m D2                                                  |
 
-![image-20251008204035015](C:\Users\valts\AppData\Roaming\Typora\typora-user-images\image-20251008204035015.png)
+![image-20251008204035015](antenna-layout.png)
 
 Feedline between 10m DE and 15m DE is constructed from 16mm tube and its placed 40mm between the centers of the tubes. In hindsight it was not great to mount. Notice this not a 50 Ohm feedline. At first it was calculated what Zo it takes to get a good match, then replaced by the tubes in the model and tuned some more.
 
