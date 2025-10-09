@@ -55,13 +55,35 @@ Feedline between 10m DE and 15m DE is constructed from 16mm tube and its placed 
 
 ## Measurements
 
-F/R measurements:
+##### Field strength measurements:
+
+Raw data files are in [fieldstrength]() subfolder. 10m tests were done at distance of 800 meters, TX power 5W, random wire RX antenna, direction to RX is 240 degrees.  15m tests were done at distance of ~ 180 meters with RX to ~ 275 degrees. Tests were done manually with not uniform resolution, due to how awkward it was.
+
+##### 21.270MHz
+
+The resolution in the 0 to 30 degree range for measurements is not fine enough, there likely is a dip as well. Sad part - F/B is 14dB instead of 19dB.
+
+![21270](21270.png)
+
+Reasons unclear.
+
+##### 28.180MHz
+
+Should give about 10dB which also is correct.
+
+![28180](28180.png)
+
+##### 28.800MHz
+
+Should give around 16dB, which seems to be correct.
 
 
 
-TODO
+![28800](28800.png)
 
 
+
+### SWR
 
 Actual measured SWR on the element at height of 6m without the long cable. Long cable would introduces losses and show better SWR than it actually is:
 
@@ -107,6 +129,10 @@ Reasons - are not clear, I have DE element holders made of aluminum mounted on S
 
 ![image-20251008194301076](10-rx.png)
 
+![image-20251009143643642](15m-pattern-1.png)
+
+![image-20251009143554677](10m-pattern-2.png)
+
 ##### 15m:
 
 ![image-20251008194927708](15m-swr-model.png)
@@ -114,6 +140,8 @@ Reasons - are not clear, I have DE element holders made of aluminum mounted on S
 ![image-20251008195047983](15m-gain.png)
 
 ![image-20251008195004553](15m-rx-model.png)
+
+![image-20251009142143286](15m-pattern.png)
 
 
 
