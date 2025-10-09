@@ -16,12 +16,12 @@ Specs:
 - 10m:
   -  850kHz SWR < 1.5
   - Gain: 8.6 to 9.5dBi free space
-  - F/B: 10 to 18dB, gain and F/B goes up with frequency.  
+  - F/B: 10 to 18dB, gain and F/B goes up with frequency, model matches measurments.
 
 - 15m
   - 450kHz SWR < 1.25
   - Gain: 7.3dBi free space
-  - F/B: 16 to 22dB.
+  - F/B: 14dB measured, expected 16 to 22dB.
 
 - Choke: 2 pieces of FT-240-52 with 12 turns of PTFE RG-142 cable - should handle 1kW limit with some headroom.
 
