@@ -16,12 +16,12 @@ Specs:
 - 10m:
   -  850kHz SWR < 1.5
   - Gain: 8.6 to 9.5dBi free space
-  - F/B: 10 to 18dB, gain and F/B goes up with frequency, model matches measurments.
+  - F/B: 10 to 18dB, gain and F/B goes up with frequency, model is close to actual measurements.
 
 - 15m
   - 450kHz SWR < 1.25
   - Gain: 7.3dBi free space
-  - F/B: 14dB measured, expected 16 to 22dB.
+  - F/B: expected 16 to 22dB, measured about 3-4dB less.
 
 - Choke: 2 pieces of FT-240-52 with 12 turns of PTFE RG-142 cable - should handle 1kW limit with some headroom.
 
@@ -57,11 +57,11 @@ Feedline between 10m DE and 15m DE is constructed from 16mm tube and its placed 
 
 ##### Field strength measurements:
 
-Raw data files are in [fieldstrength](fieldstrength/) subfolder. 10m tests were done at distance of 800 meters, TX power 5W, random wire RX antenna, direction to RX is 240 degrees.  15m tests were done at distance of ~ 180 meters with RX to ~ 275 degrees. Tests were done manually with not uniform resolution, due to how awkward it was.
+Raw data files are in [fieldstrength](fieldstrength/) subfolder. 10m tests were done at distance of 800 meters, TX power 5W, random wire RX antenna, direction to RX is 240 degrees.  15m tests were done at distance of ~ 180 meters with RX to ~ 275 degrees. Tests were done manually with not uniform resolution, due to how awkward it was. Used SDRPlay RSP1A with SDRUno software by reading the dBm values it showed. Specification states it should be within +/- 1dBm. I was seeing level peak at start and then settle at some lower value.
 
 ##### 21.270MHz
 
-The resolution in the 0 to 30 degree range for measurements is not fine enough, there likely is a dip as well. Sad part - F/B is 14dB instead of 19dB.
+The resolution in the 0 to 30 degree range for measurements is not fine enough, there likely is a dip as well. Sad part - F/B less than expected.
 
 ![21270](img/21270.png)
 
@@ -80,6 +80,24 @@ Should give around 16dB, which seems to be correct.
 
 
 ![28800](img/28800.png)
+
+#### F/B measurements
+
+As I was not happy with F/B results especially on 21Mc I went and made a new session dedicated to measuring F/B over frequency ranges. Put RX in the spot I knew from previous time to be in the maximum of the received signal level. FM-N mode was used to produce carrier only with 5W of power, distance of ~200 meters. Then proceeded to measure signal levels. Then turned antenna by 180 degrees and measured again. Raw data is in [fieldstrength](fieldstrength/) folder in files FB_21.dat and FB_28.dat
+
+
+##### 21MHz
+
+Here are the measured results plotted against the model. Looks similar/slightly better middle of the band probably has the largest difference. Missing 2 - 4dB of F/B. I expect the uncertainty here to be within +/- 1dB or so. So that's still a fair bit of chunk missing.
+
+
+![image-20251012185016464](img/fb21)
+
+##### 28MHz
+
+This is closer but still missing some F/B. It's reasonably close, not ideal but not bad.
+
+![image-20251012185145876](img/fb28)
 
 
 
