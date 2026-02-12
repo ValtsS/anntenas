@@ -1,0 +1,172 @@
+MultiNEC	24.95	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_13.893	_60m																													
+_7.178	_30m																													
+_5.157	_20m																													
+_4.007	_17m																													
+_2.927	_12m																													
+																														
+																														
+																														
+_0.1	_Radius																													
+																														
+_0.2	_H																													
+																														
+																														
+																														
+																														
+_7.047																														
+_0.01																														
+_4.33																														
+																														
+																														
+																														
+																														
+	_Radials																													
+	_0	_0	_= T	_= S * 1	_= S * 0	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * 0.7071067812	_= S * 0.7071067812	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * 0	_= S * 1	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * -0.7071067812	_= S * 0.7071067812	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * -1	_= S * 0	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * -0.7071067812	_= S * -0.7071067812	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * 0	_= S * -1	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= T	_= S * 0.7071067812	_= S * -0.7071067812	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	_Feed																													
+	_0	_0	_= T	_0	_0	_=M	_2	_=EVEN(WireLen / WL * 150)																						
+	_Radials and outer end connectors																													
+	_0	_0	_= M	_= K * 1	_= K * 0	_= M	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= M	_= K * 0.3090169944	_= K * 0.9510565163	_= M	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= M	_= K * -0.8090169944	_= K * 0.5877852523	_= M	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= M	_= K * -0.8090169944	_= K * -0.5877852523	_= M	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_0	_0	_= M	_= K * 0.3090169944	_= K * -0.9510565163	_= M	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_=E22	_=F22	_=G22	_=E23	_=F23	_=G23	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_=E23	_=F23	_=G23	_=E24	_=F24	_=G24	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_=E24	_=F24	_=G24	_=E25	_=F25	_=G25	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_=E25	_=F25	_=G25	_=E26	_=F26	_=G26	_= 2	_=EVEN(WireLen / WL * 150)																						
+	_=E26	_=F26	_=G26	_=E22	_=F22	_=G22	_= 2	_=EVEN(WireLen / WL * 150)																						
+																														
+	_60m																													
+	_=E23	_=F23	_=G23	_=E23	_=F23	_=G23+A	_2	_=EVEN(WireLen / WL * 150)																						
+	_30m																													
+	_=E22	_=F22	_=G22	_=E22	_=F22	_=G22+B	_2	_=EVEN(WireLen / WL * 150)																						
+	_20m																													
+	_=E26	_=F26	_=G26	_=E26	_=F26	_=G26+D	_2	_=EVEN(WireLen / WL * 150)																						
+	_17m																													
+	_=E25	_=F25	_=G25	_=E25	_=F25	_=G25+E	_2	_=EVEN(WireLen / WL * 150)																						
+	_12m																													
+	_=E24	_=F24	_=G24	_=E24	_=F24	_=G24+G	_2	_=EVEN(WireLen / WL * 150)																						
+	_Radials																													
+	_Radials																													
+_rz	_0	_0	_= T	_= U * 1	_= U * 0	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+_rz	_0	_0	_= T	_= U * 0	_= U * 1	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+_rz	_0	_0	_= T	_= U * -1	_= U * 0	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+_rz	_0	_0	_= T	_= U * 0	_= U * -1	_= T	_= 1	_=EVEN(WireLen / WL * 150)																						
+	"_=ROUND(($B$45 - 0) * COS(RADIANS(22.5)) - ($C$45 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($B$45 - 0) * SIN(RADIANS(22.5)) + ($C$45 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$D$45	"_=ROUND(($E$45 - 0) * COS(RADIANS(22.5)) - ($F$45 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($E$45 - 0) * SIN(RADIANS(22.5)) + ($F$45 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$G$45	_= 1	_=EVEN(WireLen / WL * 150)																						
+	"_=ROUND(($B$46 - 0) * COS(RADIANS(22.5)) - ($C$46 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($B$46 - 0) * SIN(RADIANS(22.5)) + ($C$46 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$D$46	"_=ROUND(($E$46 - 0) * COS(RADIANS(22.5)) - ($F$46 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($E$46 - 0) * SIN(RADIANS(22.5)) + ($F$46 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$G$46	_= 1	_=EVEN(WireLen / WL * 150)																						
+	"_=ROUND(($B$47 - 0) * COS(RADIANS(22.5)) - ($C$47 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($B$47 - 0) * SIN(RADIANS(22.5)) + ($C$47 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$D$47	"_=ROUND(($E$47 - 0) * COS(RADIANS(22.5)) - ($F$47 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($E$47 - 0) * SIN(RADIANS(22.5)) + ($F$47 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$G$47	_= 1	_=EVEN(WireLen / WL * 150)																						
+	"_=ROUND(($B$48 - 0) * COS(RADIANS(22.5)) - ($C$48 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($B$48 - 0) * SIN(RADIANS(22.5)) + ($C$48 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$D$48	"_=ROUND(($E$48 - 0) * COS(RADIANS(22.5)) - ($F$48 - 0) * SIN(RADIANS(22.5)) + 0, 9)"	"_=ROUND(($E$48 - 0) * SIN(RADIANS(22.5)) + ($F$48 - 0) * COS(RADIANS(22.5)) + 0, 9)"	_=$G$48	_= 1	_=EVEN(WireLen / WL * 150)																						
+_9	_50	_1	_0	_I											_5.37		_A													
+															_10.1		_B													
+															_14.175		_D													
+															_18.1		_E													
+															_24.95		_G													
+															_		_S													
+															_		_U													
+															_															
+															_															
+																														
+															_1	_0.5														
+															_2	_0.5														
+															_1	_1.005														
+															_1	_99														
+															_0	_40														
+															_0	_40														
+																														
+															_	_														
+															_	_														
+																														
+															_5															
+																														
+																														
+															TRUE															
+															3															
+															FALSE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	2	4	2	1	0	1	50	0	0	14.1	14.1	0.001	B	0.1	4	0.2									FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_5.37																														
+_10.1																														
+_14.175																														
+_18.1																														
+_24.95																														
+_14																														
+_14.05																														
+_14.1																														
+_14.15																														
+_14.2																														
+_14.25																														
+_14.3																														
+_14.35																														
+14																														

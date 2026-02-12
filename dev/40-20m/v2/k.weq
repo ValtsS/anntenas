@@ -1,0 +1,175 @@
+MultiNEC	7	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_5.30603465665948	_20m RE	_LEN								_0.529948946945627	_20m RE	_POS	_=C34-0.3	_1.014																
+_5.35998648723454	_20m DE									_3.82886209405375	_20m DE		_=C35-0.3	_4.056																
+_4.85095859081624	_20m D1									_5.2381800038025	_20m D1		_=C36-0.3	_5.331																
+_4.73061595061844	_20m D2									_7.7193867949394	_20m D2		_=G37-0.15-0.12	_8.586																
+																														
+																														
+_10.91	_RE len 40																													
+_9.885	_DE len 40																													
+										_0	_40m RE pos																			
+										_5.8	_40m DE pos																			
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+_0.5289453125																														
+_30																														
+	_Ref																													
+	_=AI	_=-I	_=Z	_=AI	_-9.575	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_-9.575	_=Z	_=AI	_-6.825	_=Z	_34	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_-6.825	_=Z	_=AI	_-2.365	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_-2.365	_=Z	_=AI	_2.365	_=Z	_48	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_2.365	_=Z	_=AI	_6.825	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_6.825	_=Z	_=AI	_9.575	_=Z	_34	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_9.575	_=Z	_=AI	_=I	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_40 mDE																													
+	_=AJ	_=-J	_=Z	_=AJ	_-9.355	_=Z	_24	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_-9.355	_=Z	_=AJ	_-7.875	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_-7.875	_=Z	_=AJ	_-5.03	_=Z	_34	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_-5.03	_=Z	_=AJ	_-2.76	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_-2.76	_=Z	_=AJ	_-0.02	_=Z	_50	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_-0.02	_=Z	_=AJ	_0.02	_=Z	_50	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_0.02	_=Z	_=AJ	_2.76	_=Z	_50	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_2.76	_=Z	_=AJ	_5.03	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_5.03	_=Z	_=AJ	_7.875	_=Z	_34	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_7.875	_=Z	_=AJ	_9.355	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_9.355	_=Z	_=AJ	_=J	_=Z	_24	_=EVEN(WireLen / WL * 150)																						
+	_20m DE																													
+	_=AB	_=-B	_=Z	_=AB	_-1.45	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_-1.45	_=Z	_=AB	_=-0.02	_=Z	_35	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-0.02	_=Z	_=AB	_=0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=0.02	_=Z	_=AB	_1.45	_=Z	_35	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_1.45	_=Z	_=AB	_=B	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_20m RE																													
+	_=AA	_=-A	_=Z	_=AA	_=-0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-0.02	_=Z	_=AA	_=0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=0.02	_=Z	_=AA	_=A	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_20m D1																													
+	_=AC	_=-D	_=Z	_=AC	_=-0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-0.02	_=Z	_=AC	_=0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=0.02	_=Z	_=AC	_=D	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_20m D2																													
+	_=AD	_=-E	_=Z	_=AD	_=-0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AD	_=-0.02	_=Z	_=AD	_=0.02	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AD	_=0.02	_=Z	_=AD	_=E	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+_13	_50	_1	_0	_I											_14.1		_AD													
+															_7.08															
+															_14.3															
+															_															
+															_															
+															_															
+															_															
+															_															
+															_															
+																														
+															_0.5	_0.5														
+															_0.5	_0.5														
+															_1	_1.05														
+															_3	_99														
+															_0	_40														
+															_2	_40														
+																														
+															_90	_270														
+															_	_														
+																														
+															_0															
+																														
+																														
+															FALSE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+_13	_50	_Short		_=Y	_497	_0.95	_N	_0.17	_7																					
+_13	_50	_21	_50	_Actual dist	"_=TLParms(L77,  50,  0.66,  1.104626,  0.120013,  0.001291,  100,  ""Ro"",  80)"	"_=TLParms(L77,  50,  0.66,  1.104626,  0.120013,  0.001291,  100,  ""VF"",  80)"	_N	"_=TLParms(L77,  50,  0.66,  1.104626,  0.120013,  0.001291,  100,  ""dB"",  80)"	_=Freq				_Wireman CQ113     (RG-213)																	
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	0	4	2	0	0	1	50	0	0	14	14.35	0.02													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_7																														
+_7.025																														
+_7.05																														
+_7.075																														
+_7.1																														
+_7.125																														
+_7.15																														
+_7.175																														
+_7.2																														
+_7.225																														
+_7.25																														
+_7.275																														
+_7.3																														
+_14																														
+_14.05																														
+_14.1																														
+_14.15																														
+_14.2																														
+_14.25																														
+_14.3																														
+_14.35																														
+22																														
