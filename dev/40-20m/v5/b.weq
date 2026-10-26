@@ -1,0 +1,244 @@
+MultiNEC	14.35	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+_5.70492031005412	_20m RE	_LEN	_=C12*0.995							_0.65	_20m RE									_=8.1-7.5		_30mm								_4.45
+_5.5191038218315	_20m DE		_=C13*0.999							_4.92683028466674	_20m DE									_=8.75-8.1		_25mm								
+_5.04500931696167	_20m D1		_=C14*0.999							_7.45	_20m D1									_=9.5-8.75		_20mm								
+																				_=10.25-9.5		_16mm								
+																				_0.01	_40m DE	_60mm								
+																				_0.027		_60mm								
+_11.4061533833824	_RE len 40		_=C18*0.997																	_2.963		_60mm								
+_10.042654719006	_DE len 40		_=C19*0.997																	_=6.4-3		_50mm								
+										_0.15	_40m RE pos									_=6.95-6.4		_40mm								
+										_5.79886481700688	_40m DE pos									_=7.5-6.95		_35mm								
+																				_=8.1-7.5		_30mm								
+										_0.2										_=8.75-8.1		_25mm								
+																				_=9.5-8.75		_20mm								
+										_0.037	_Feedline																			
+										_3.7																				
+																														
+																				_0.55										
+																				_=1.15										
+										_3	_40m RE	_60mm								_1.75										
+										_=6.4-3		_50mm								_2.35										
+										_=6.95-6.4		_40mm								_3										
+_30										_=7.5-6.95		_35mm								_3.75										
+	_20m RE																													
+	_=AA	_=-A	_=Z	_=AA	_=-BS	_=Z	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BS	_=Z	_=AA	_=-BR	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BR	_=Z	_=AA	_=-BQ	_=Z	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BQ	_=Z	_=AA	_=-BP	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BP	_=Z	_=AA	_=-BO	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BO	_=Z	_=AA	_=-BN	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BN	_=Z	_=AA	_=-BM	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=-BM	_=Z	_=AA	_0	_=Z	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_0	_=Z	_=AA	_=BM	_=Z	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BM	_=Z	_=AA	_=BN	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BN	_=Z	_=AA	_=BO	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BO	_=Z	_=AA	_=BP	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BP	_=Z	_=AA	_=BQ	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BQ	_=Z	_=AA	_=BR	_=Z	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BR	_=Z	_=AA	_=BS	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_=BS	_=Z	_=AA	_=A	_=Z	_12	_=EVEN(WireLen / WL * 150)																						
+	_20m DE																													
+	_=AB	_=-B	_=Z+0.04	_=AB	_=-BS	_=Z+0.04	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BS	_=Z+0.04	_=AB	_=-BR	_=Z+0.04	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BR	_=Z+0.04	_=AB	_=-BQ	_=Z+0.04	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BQ	_=Z+0.04	_=AB	_=-BP	_=Z+0.04	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BP	_=Z+0.04	_=AB	_=-BO	_=Z+0.04	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BO	_=Z+0.04	_=AB	_=-BN	_=Z+0.04	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BN	_=Z+0.04	_=AB	_=-BM	_=Z+0.04	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-BM	_=Z+0.04	_=AB	_=-AL	_=Z+0.04	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-AL	_=Z+0.04	_=AB	_=-AN	_=Z+0.04	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=-AN	_=Z+0.04	_=AB	_=AN	_=Z+0.04	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=AN	_=Z+0.04	_=AB	_=AL	_=Z+0.04	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=AL	_=Z+0.04	_=AB	_=BM	_=Z+0.04	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BM	_=Z+0.04	_=AB	_=BN	_=Z+0.04	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BN	_=Z+0.04	_=AB	_=BO	_=Z+0.04	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BO	_=Z+0.04	_=AB	_=BP	_=Z+0.04	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BP	_=Z+0.04	_=AB	_=BQ	_=Z+0.04	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BQ	_=Z+0.04	_=AB	_=BR	_=Z+0.04	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BR	_=Z+0.04	_=AB	_=BS	_=Z+0.04	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=BS	_=Z+0.04	_=AB	_=B	_=Z+0.04	_12	_=EVEN(WireLen / WL * 150)																						
+	_20m D1																													
+	_=AC	_=-D	_=Z	_=AC	_=-BS	_=Z	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BS	_=Z	_=AC	_=-BR	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BR	_=Z	_=AC	_=-BQ	_=Z	_20	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BQ	_=Z	_=AC	_=-BP	_=Z	_25	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BP	_=Z	_=AC	_=-BO	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BO	_=Z	_=AC	_=-BN	_=Z	_35	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BN	_=Z	_=AC	_=-BM	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=-BM	_=Z	_=AC	_0	_=Z	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_0	_=Z	_=AC	_=BM	_=Z	_45	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BM	_=Z	_=AC	_=BN	_=Z	_40	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BN	_=Z	_=AC	_=BO	_=Z	_35	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BO	_=Z	_=AC	_=BP	_=Z	_30	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BP	_=Z	_=AC	_=BQ	_=Z	_25	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BQ	_=Z	_=AC	_=BR	_=Z	_20	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BR	_=Z	_=AC	_=BS	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_=AC	_=BS	_=Z	_=AC	_=D	_=Z	_12	_=EVEN(WireLen / WL * 150)																						
+																														
+	_Feed																													
+																														
+	_=AB	_=-AN	_=Z+0.04	_=AJ	_=-AN	_=Z+0.04	_12	_=EVEN(WireLen / WL * 150)																						
+	_=AB	_=AN	_=Z+0.04	_=AJ	_=AN	_=Z+0.04	_12	_=EVEN(WireLen / WL * 150)																						
+																														
+																														
+	_Boom																													
+																														
+	_-0.1	_0	_=Z-0.05	_=AI	_0	_=Z-0.05	_100	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_0	_=Z-0.05	_=AA	_0	_=Z-0.05	_100	_=EVEN(WireLen / WL * 150)																						
+	_=AA	_0	_=Z-0.05	_=AC	_0	_=Z-0.05	_100	_=EVEN(WireLen / WL * 150)																						
+	_DE len 40																													
+	_=AJ	_=-J	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG - BH - BI	_=Z+0.04	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG - BH - BI	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG - BH	_=Z+0.04	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG - BH	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG	_=Z+0.04	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD - BE - BF - BG	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD - BE - BF	_=Z+0.04	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD - BE - BF	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD - BE	_=Z+0.04	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD - BE	_=Z+0.04	_=AJ	_=-BA - BB - BC - BD	_=Z+0.04	_=40	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC - BD	_=Z+0.04	_=AJ	_=-BA - BB - BC	_=Z+0.04	_=50	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB - BC	_=Z+0.04	_=AJ	_=-BA - BB	_=Z+0.04	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA - BB	_=Z+0.04	_=AJ	_=-BA	_=Z+0.04	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=-BA	_=Z+0.04	_=AJ	_=BA	_=Z+0.04	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA	_=Z+0.04	_=AJ	_=BA + BB	_=Z+0.04	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB	_=Z+0.04	_=AJ	_=BA + BB + BC	_=Z+0.04	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC	_=Z+0.04	_=AJ	_=BA + BB + BC + BD	_=Z+0.04	_=50	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD	_=Z+0.04	_=AJ	_=BA + BB + BC + BD + BE	_=Z+0.04	_=40	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD + BE	_=Z+0.04	_=AJ	_=BA + BB + BC + BD + BE + BF	_=Z+0.04	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD + BE + BF	_=Z+0.04	_=AJ	_=BA + BB + BC + BD + BE + BF + BG	_=Z+0.04	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD + BE + BF + BG	_=Z+0.04	_=AJ	_=BA + BB + BC + BD + BE + BF + BG + BH	_=Z+0.04	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD + BE + BF + BG + BH	_=Z+0.04	_=AJ	_=BA + BB + BC + BD + BE + BF + BG + BH + BI	_=Z+0.04	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AJ	_=BA + BB + BC + BD + BE + BF + BG + BH + BI	_=Z+0.04	_=AJ	_=J	_=Z+0.04	_=12	_=EVEN(WireLen / WL * 150)																						
+	_RE len 40																													
+	_=AI	_=-I	_=Z	_=AI	_=-AS - AT - AU - AV - AW - AX - AY - AZ	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU - AV - AW - AX - AY - AZ	_=Z	_=AI	_=-AS - AT - AU - AV - AW - AX - AY	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU - AV - AW - AX - AY	_=Z	_=AI	_=-AS - AT - AU - AV - AW - AX	_=Z	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU - AV - AW - AX	_=Z	_=AI	_=-AS - AT - AU - AV - AW	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU - AV - AW	_=Z	_=AI	_=-AS - AT - AU - AV	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU - AV	_=Z	_=AI	_=-AS - AT - AU	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT - AU	_=Z	_=AI	_=-AS - AT	_=Z	_=40	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS - AT	_=Z	_=AI	_=-AS	_=Z	_=50	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=-AS	_=Z	_=AI	_=AS	_=Z	_=60	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS	_=Z	_=AI	_=AS + AT	_=Z	_=50	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT	_=Z	_=AI	_=AS + AT + AU	_=Z	_=40	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU	_=Z	_=AI	_=AS + AT + AU + AV	_=Z	_=35	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU + AV	_=Z	_=AI	_=AS + AT + AU + AV + AW	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU + AV + AW	_=Z	_=AI	_=AS + AT + AU + AV + AW + AX	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU + AV + AW + AX	_=Z	_=AI	_=AS + AT + AU + AV + AW + AX + AY	_=Z	_=20	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU + AV + AW + AX + AY	_=Z	_=AI	_=AS + AT + AU + AV + AW + AX + AY + AZ	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=AI	_=AS + AT + AU + AV + AW + AX + AY + AZ	_=Z	_=AI	_=I	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+_26	_50	_1	_0	_I											_14.1		_A													
+															_14.175		_B													
+															_14.4		_D													
+															_		_AB													
+															_															
+															_															
+															_															
+															_															
+															_															
+																														
+															_0.5	_0.5														
+															_0.5	_0.5														
+															_2	_1.05														
+															_2	_99														
+															_0	_40														
+															_4	_30														
+																														
+															_90	_270														
+															_	_														
+																														
+															_0															
+																														
+																														
+															FALSE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+_66	_50		_=AO			_Ser	_Par																							
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	FALSE	TRUE	0	4	2	0	0	1	50	0	0	14	14.35	0.02													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_7																														
+_7.025																														
+_7.05																														
+_7.075																														
+_7.1																														
+_7.125																														
+_7.15																														
+_7.175																														
+_7.195																														
+_14																														
+_14.025																														
+_14.05																														
+_14.075																														
+_14.1																														
+_14.125																														
+_14.15																														
+_14.175																														
+_14.2																														
+_14.225																														
+_14.25																														
+_14.275																														
+_14.3																														
+_14.325																														
+_14.35																														
+25																														

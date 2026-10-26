@@ -1,0 +1,26 @@
+DXEngineering YagiMechanical Antenna File, Format Version 2.0
+AN="Antenna";    ML=0.00000 in;    SS=0.00000 in;    WLS=1.0;    H=33.00000 ft;    WS=93.53430 mph;    IT=0.00000 in;
+EC=2;
+E0="";    MP=0.00000 in;    ES=0.00000 in;    SC=10;    RF=9.7531 MHz;    DE=False;
+ E0S0    SHAPE=Round;    X=0.47244 in;    Y=0.47244 in;    T=0.03937 in;    IS=255.90551 in;    IE=311.41732 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S1    SHAPE=Round;    X=0.62992 in;    Y=0.62992 in;    T=0.05906 in;    IS=224.40945 in;    IE=259.84252 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S2    SHAPE=Round;    X=0.78740 in;    Y=0.78740 in;    T=0.07874 in;    IS=190.94488 in;    IE=228.34646 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S3    SHAPE=Round;    X=0.98425 in;    Y=0.98425 in;    T=0.07874 in;    IS=161.41732 in;    IE=194.88189 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S4    SHAPE=Round;    X=1.18110 in;    Y=1.18110 in;    T=0.07874 in;    IS=133.85827 in;    IE=165.35433 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S5    SHAPE=Round;    X=1.37795 in;    Y=1.37795 in;    T=0.07874 in;    IS=106.29921 in;    IE=137.79528 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S6    SHAPE=Round;    X=1.57480 in;    Y=1.57480 in;    T=0.07874 in;    IS=82.67717 in;    IE=110.23622 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S7    SHAPE=Round;    X=1.77165 in;    Y=1.77165 in;    T=0.07874 in;    IS=61.02362 in;    IE=86.61417 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S8    SHAPE=Round;    X=1.96850 in;    Y=1.96850 in;    T=0.07874 in;    IS=37.40157 in;    IE=64.96063 in;    YS=24656 psi;    MAT="6060-T66";
+ E0S9    SHAPE=Round;    X=2.36220 in;    Y=2.36220 in;    T=0.07874 in;    IS=0.00000 in;    IE=41.33858 in;    YS=24656 psi;    MAT="6060-T66";
+E1="";    MP=3.36220 in;    ES=157.48031 in;    SC=8;    RF=9.5857 MHz;    DE=False;
+ E1S0    SHAPE=Round;    X=0.47244 in;    Y=0.47244 in;    T=0.03937 in;    IS=251.96850 in;    IE=313.38583 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S1    SHAPE=Round;    X=0.62992 in;    Y=0.62992 in;    T=0.05906 in;    IS=218.50394 in;    IE=255.90551 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S2    SHAPE=Round;    X=0.78740 in;    Y=0.78740 in;    T=0.07874 in;    IS=183.07087 in;    IE=222.44094 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S3    SHAPE=Round;    X=0.98425 in;    Y=0.98425 in;    T=0.07874 in;    IS=139.76378 in;    IE=187.00787 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S4    SHAPE=Round;    X=1.18110 in;    Y=1.18110 in;    T=0.07874 in;    IS=112.20472 in;    IE=143.70079 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S5    SHAPE=Round;    X=1.37795 in;    Y=1.37795 in;    T=0.07874 in;    IS=72.83465 in;    IE=116.14173 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S6    SHAPE=Round;    X=1.57480 in;    Y=1.57480 in;    T=0.07874 in;    IS=49.21260 in;    IE=76.77165 in;    YS=24656 psi;    MAT="6060-T66";
+ E1S7    SHAPE=Round;    X=1.77165 in;    Y=1.77165 in;    T=0.07874 in;    IS=0.00000 in;    IE=53.14961 in;    YS=24656 psi;    MAT="6060-T66";
+B0="";    MP=0.00000 in;    RS=0.00000 in;    DS=0.00000 in;    SC=1;
+ B0S0    SHAPE=Round;    X=2.36220 in;    Y=2.36220 in;    T=0.09843 in;    IS=0.00000 in;    IE=39.37008 in;    YS=21756 psi;    MAT="6060-T6";
+NOTES="";

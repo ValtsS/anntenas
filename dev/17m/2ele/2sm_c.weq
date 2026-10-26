@@ -1,0 +1,135 @@
+MultiNEC	18.168	m	mm	SLT30	*** DO NOT MAKE MANUAL EDITS TO THIS FILE ***																									
+										_4.268	_RE len	_=C34/(14.1/18.1)	_4.279																	
+_3.07	_18m DE pos									_3.973	_DE len	_=C35/(18.1/21.1)	_3.987																	
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+_2.469																														
+_2.463																														
+																														
+_3.548																														
+_3.344																														
+																														
+																														
+																														
+																														
+																														
+																														
+_6																														
+	_RE																													
+	_=0	_=-AA	_=Z	_=0	_=-P	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=-P	_=Z	_=0	_=-N	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=-N	_=Z	_=0	_=-0.805	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=-0.805	_=Z	_=0	_=0.805	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=0.805	_=Z	_=0	_=N	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=N	_=Z	_=0	_=P	_=Z	_16	_=EVEN(WireLen / WL * 150)																						
+	_=0	_=P	_=Z	_=0	_=AA	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+	_DE len																													
+	_=B	_=-AB	_=Z	_=B	_=-Q	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+	_=B	_=-Q	_=Z	_=B	_=-M	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=B	_=-M	_=Z	_=B	_-0.735	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=B	_-0.735	_=Z	_=B	_=0.735	_=Z	_=30	_=EVEN(WireLen / WL * 150)																						
+	_=B	_=0.735	_=Z	_=B	_=M	_=Z	_=25	_=EVEN(WireLen / WL * 150)																						
+	_=B	_=M	_=Z	_=B	_=Q	_=Z	_=16	_=EVEN(WireLen / WL * 150)																						
+	_=B	_=Q	_=Z	_=B	_=AB	_=Z	_=12	_=EVEN(WireLen / WL * 150)																						
+_11	_50	_1	_0	_V											_14.125		_AA													
+															_		_AB													
+															_															
+															_															
+															_															
+															_															
+															_															
+															_															
+															_															
+																														
+															_0.5	_0.5														
+															_0.5	_0.5														
+															_1	_1.03														
+															_2.25	_10														
+															_0	_25														
+															_1.5	_99														
+																														
+															_90	_270														
+															_	_														
+																														
+															_0															
+																														
+																														
+															TRUE															
+															3															
+															TRUE															
+															TRUE															
+															TRUE															
+															TRUE															
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+																														
+Controls	TRUE	FALSE	2	4	2	0	30	1	50	0	30	18.068	18.168	0.05													FALSE	TRUE	_1	_0
+_Freq (MHz)																														
+_18.068																														
+_18.118																														
+_18.168																														
+4																														
